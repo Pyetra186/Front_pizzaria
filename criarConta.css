@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url(./img/telaFundo.png);
+    background-size: 120%;
+    padding: 48px 28px;
+    color: var(--cor-texto);
+    font-size: 14px;
+}
+.perfil{
+    height: 180px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+   
+}
+.pessoaR{
+    height: 100px;
+    width: 100px;
+    background-color: #C4C4C4;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0.1em 0.01em #8f8f8f;
+}
+.foto{
+    position: absolute;
+    background-color: rgb(201, 36, 36);
+    padding: 6px;
+    border-radius: 50%;
+    left: 220px;
+    transition: .2s;
+}
+.tituloCriar{
+    font-size: 20px;
+    position: absolute;
+    color: #fff;
+    left: 65px;
+    top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.seta{
+    position: absolute;
+    left: 30px;
+    top: 53px;
+    cursor: pointer;
+}
+main{
+    background-color: white;
+    width: 100vw;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 38px 26px;
+    gap: 86px;
+}
+main .retBranco{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 100vw;
+    border-radius: 24px;
+    top: 280px;
+    left: 0px;
+    margin-top: -30px ;
+}
+input{
+    background: transparent;
+    border: 1px solid rgba(0, 0, 51, 0);
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1.6px solid #999999;
+    font-family: 'Roboto', sans-serif;
+}
+main p{
+    font-size: 14px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
+main .criarC{
+   
+    width: 100%;
+    height: 55px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(22, 83, 22);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+   
+}
+
+

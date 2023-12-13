@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96vh;
+}
+
+
+header{
+    background-image: url(./img/telaFundo.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 250px;
+    width: 100%;
+    margin-left: 0px;
+    
+}
+header .voltar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+header .perfil{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1000;
+}
+header .perfil .pessoa{
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0.1em 0.01em #8f8f8f;
+    position: absolute;
+    height: 111px;
+    width: 111px;
+    margin-top: 10px;
+}
+
+
+
+
+.white{
+    background-color: white;
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    top: 190px;
+    border-radius: 32px 32px 0px 0px ;
+    margin-top: 10px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20pxpx;
+    height: 55vh;
+}
+main .identification{
+    height: 50px;
+    display: grid;
+    justify-content: center;
+}
+main .identification p{
+    display: flex;
+    justify-content: center;
+    color: #AEA6A6;
+}
+main .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+main .content{
+    border: 1.6px solid #e9c9ab;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    gap: 12px;
+    height: 74px;
+    width: 323px;
+  
+}
+main .content div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+main .content div p{
+    color: #999999;
+    font-size: 14px;
+ 
+}
+main .content div h3{
+    font-size: 14px;
+    margin-top: -10px;
+}
+main .content .image{
+    background-color: #F4E2D1;
+    border-radius: 50%;
+    padding: 10px;
+}
+.part1{
+    display: grid;
+    text-align: center;
+    margin-top: -10px;
+    
+   
+}
+.part1 p{
+    color: #AEA6A6;
+    margin-top: -8px;
+  
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+.botaoP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: rgb(173, 26, 26);
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+
+
